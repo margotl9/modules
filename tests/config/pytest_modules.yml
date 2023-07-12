@@ -3640,6 +3640,10 @@ subworkflows/fasta_newick_epang_gappa:
   - subworkflows/nf-core/fasta_newick_epang_gappa/**
   - tests/subworkflows/nf-core/fasta_newick_epang_gappa/**
 
+subworkflows/fasta_phage_host_iphop:
+  - subworkflows/nf-core/fasta_phage_host_iphop/**
+  - tests/subworkflows/nf-core/fasta_phage_host_iphop/**
+
 subworkflows/fastq_align_bowtie2:
   - subworkflows/nf-core/fastq_align_bowtie2/**
   - tests/subworkflows/nf-core/fastq_align_bowtie2/**
