@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/subworkflows/yaml-schema.json
+name: "fastq_genome_containment_mash"
+description: Screen sequences
+keywords:
+  - mash
+  - containment
+  - screen
+  - sketch
+modules:
+  - mash/screen
+  - mash/sketch
+input:
+  - reads:
+      type: file
+      description: query sequences
+      pattern: "*.fastq.gz"
+output:
+  - screen:
+      type: file
+      description: |
+        list of sequences from fastx_db similar to query sequences
+      pattern: "*.screen"
+  - versions:
+      type: file
+      description: File containing software versions
+      pattern: "versions.yml"
+authors:
+  - "@margotl9"
