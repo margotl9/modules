@@ -3688,6 +3688,10 @@ subworkflows/fastq_fastqc_umitools_trimgalore:
   - subworkflows/nf-core/fastq_fastqc_umitools_trimgalore/**
   - tests/subworkflows/nf-core/fastq_fastqc_umitools_trimgalore/**
 
+subworkflows/fastq_genome_containment_mash:
+  - subworkflows/nf-core/fastq_genome_containment_mash/**
+  - tests/subworkflows/nf-core/fastq_genome_containment_mash/**
+
 subworkflows/fastq_subsample_fq_salmon:
   - subworkflows/nf-core/fastq_subsample_fq_salmon/**
   - tests/subworkflows/nf-core/fastq_subsample_fq_salmon/**
