@@ -3973,6 +3973,10 @@ vcftools:
   - modules/nf-core/vcftools/**
   - tests/modules/nf-core/vcftools/**
 
+vcontact2/gene2genome:
+  - modules/nf-core/vcontact2/gene2genome/**
+  - tests/modules/nf-core/vcontact2/gene2genome/**
+
 verifybamid/verifybamid:
   - modules/nf-core/verifybamid/verifybamid/**
   - tests/modules/nf-core/verifybamid/verifybamid/**

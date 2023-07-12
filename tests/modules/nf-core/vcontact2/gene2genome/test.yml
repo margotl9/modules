@@ -1,0 +1,13 @@
+## TODO nf-core: Please run the following command to build this file:
+#                nf-core modules create-test-yml /gene2genome
+- name: "vcontact2 gene2genome"
+  command: nextflow run ./tests/modules/nf-core/vcontact2/gene2genome -entry test_vcontact2_gene2genome -c ./tests/config/nextflow.config -c ./tests/modules/nf-core/vcontact2/gene2genome/nextflow.config
+  tags:
+    - "vcontact2"
+    - "vcontact2/gene2genome"
+  files:
+    - path: "output/vcontact2/test.bam"
+      md5sum: e667c7caad0bc4b7ac383fd023c654fc
+    - path: "output/vcontact2/versions.yml"
+      md5sum: a01fe51bc4c6a3a6226fbf77b2c7cf3b
+    
