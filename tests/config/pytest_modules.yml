@@ -838,6 +838,14 @@ coreograph:
   - modules/nf-core/coreograph/**
   - tests/modules/nf-core/coreograph/**
 
+coverm/contig:
+  - modules/nf-core/coverm/contig/**
+  - tests/modules/nf-core/coverm/contig/**
+
+coverm/genome:
+  - modules/nf-core/coverm/genome/**
+  - tests/modules/nf-core/coverm/genome/**
+
 crisprcleanr/normalize:
   - modules/nf-core/crisprcleanr/normalize/**
   - tests/modules/nf-core/crisprcleanr/normalize/**

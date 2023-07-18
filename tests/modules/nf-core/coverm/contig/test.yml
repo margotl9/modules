@@ -1,0 +1,9 @@
+- name: coverm contig test_coverm_contig
+  command: nextflow run ./tests/modules/nf-core/coverm/contig -entry test_coverm_contig -c ./tests/config/nextflow.config -c ./tests/modules/nf-core/coverm/contig/nextflow.config
+  tags:
+    - coverm/contig
+    - coverm
+  files:
+    - path: output/coverm/coverm_contig_output.tsv
+      md5sum: 8e97198137f9ab7bdca3124f3e544438
+    - path: output/coverm/versions.yml
