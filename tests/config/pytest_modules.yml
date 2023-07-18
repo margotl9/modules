@@ -686,6 +686,10 @@ checkm/qa:
   - modules/nf-core/checkm/qa/**
   - tests/modules/nf-core/checkm/qa/**
 
+checkv/anicalc:
+  - modules/nf-core/checkv/anicalc/**
+  - tests/modules/nf-core/checkv/anicalc/**
+
 checkv/downloaddatabase:
   - modules/nf-core/checkv/downloaddatabase/**
   - tests/modules/nf-core/checkv/downloaddatabase/**
